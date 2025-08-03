@@ -1173,3 +1173,26 @@ section {
 }
 
 /* ...existing code... */
+@media (max-width: 700px) {
+    .hero-content {
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+    .hero-photo-container {
+        order: -1;
+        margin-bottom: 1.5rem;
+    }
+    .hero-text {
+        width: 100%;
+    }
+    .hero-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: stretch;
+    }
+    .btn {
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
